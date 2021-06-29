@@ -5,20 +5,19 @@
   position: relative;
 }
 
-@media screen and (max-width: 768px) {
-  .place {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    row-gap: 28px;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .place {
     grid-template-columns: 340fr 352fr;
     grid-template-rows: auto auto;
     column-gap: 28px;
     row-gap: 48px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .place {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    row-gap: 28px;
   }
 }
 
